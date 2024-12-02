@@ -1,0 +1,51 @@
+
+header {
+    background-image: url();
+
+}
+nav{
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    background-image: url("https://images3.alphacoders.com/133/1337465.png");
+
+}
+.hover:hover {
+    background-color: #f50e0e;
+
+  }
+
+img{
+    height: 50px;
+}
+    
+.burger{
+display: none;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+  }
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-left: 20px;
+}
+
+
+  @media (max-width: 700px) {
+
+    .nav{
+       display: none;
+    }
+    .burger{
+        display: flex;
+        position: absolute;
+        right: 25px;
+;
+    }
+
+ }
